@@ -1,0 +1,13 @@
+class Demon:
+    name = ""
+    power = ""
+    def description(self):
+        desc_str = "%s has the power of %s" % (self.name, self.power)
+        return desc_str
+
+pazuzu = Demon()
+pazuzu.name = "PAZUZU"
+pazuzu.power = "Kill"
+
+print(pazuzu.description())
+
