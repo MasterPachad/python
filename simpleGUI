@@ -1,0 +1,18 @@
+from tkinter import* 
+
+def click():
+    entered_text = textentry.get()
+    output.delete(0.0, END)
+    output.insert(END, entered_text)
+
+root = Tk()
+root.title("simpleGUI")
+theLabel = Label(root, text="Enter a word") 
+theLabel.pack()
+textentry = Entry(root, width = 20)
+textentry.pack()
+b = Button(root, text = "SUBMIT", width = 6, command = click)
+b.pack()
+output = Text(root, width = 75, height = 6)
+output.pack()
+root.mainloop()
