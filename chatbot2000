@@ -18,7 +18,7 @@ def send_message(message):
     print(bot_template.format(response))
 
 #responses = {
-#  "what's your name?": "my name is EchoBot",
+#  "what's your name?": "my name is chatbot2000",
 #   "what's the weather today?": "it's sunny!"
 #   }
 #
