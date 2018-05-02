@@ -2,7 +2,7 @@ bot_template = "BOT : {0}"
 user_template = "USER : {0}"
 
 responses = {
-  "what's your name?": "my name is chatbot001",
+  "what's your name?": "my name is chatbot2000",
    "what's the weather today?": "it's sunny!"
    }
 
