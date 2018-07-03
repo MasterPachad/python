@@ -1,0 +1,17 @@
+x = 1
+
+while x < 3:
+
+ x = input("Tast inn 1,2 eller 3 for slutt")
+
+ x = int(x)
+
+ if x == 1:
+    print("Du tastet 1")
+ elif x == 2:
+    print("Du tastet 2")
+ else:
+    break
+
+print("slutt")
+
